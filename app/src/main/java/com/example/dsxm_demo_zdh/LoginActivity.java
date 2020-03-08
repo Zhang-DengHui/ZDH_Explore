@@ -12,7 +12,7 @@ import com.example.dsxm_demo_zdh.models.api.bean.UserBean;
 import com.example.dsxm_demo_zdh.persenter.LoginPresenter;
 import com.example.dsxm_demo_zdh.utils.SpUtils;
 
-public class LoginActivity extends BaseActivity<LoginContract.View, LoginContract.Presenter> implements LoginContract.View, View.OnClickListener {
+public class LoginActivity extends BaseActivity< LoginContract.Presenter> implements LoginContract.View, View.OnClickListener {
 
     private EditText mUsernameEdit;
     private EditText mPasswordEdit;
@@ -25,9 +25,10 @@ public class LoginActivity extends BaseActivity<LoginContract.View, LoginContrac
     }
 
     @Override
-    protected LoginContract.Presenter initPresenter() {
+    protected LoginContract.Presenter createPersenter() {
         return new LoginPresenter();
     }
+
 
     @Override
     protected void initView() {
@@ -42,7 +43,7 @@ public class LoginActivity extends BaseActivity<LoginContract.View, LoginContrac
                 String nickname = mUsernameEdit.getText().toString();
                 String password = mPasswordEdit.getText().toString();
 
-                presenter.login(nickname, password);
+                persenter.login(nickname, password);
             }
         });
         mLogenBtn = (TextView) findViewById(R.id.btn_logen);
@@ -65,7 +66,7 @@ public class LoginActivity extends BaseActivity<LoginContract.View, LoginContrac
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btn_logen:
-                Intent intent = new Intent(LoginActivity.this, LogenActivity.class);
+                Intent intent = new Intent(LoginActivity.this, RegistActivity.class);
                 startActivity(intent);
                 break;
             default:

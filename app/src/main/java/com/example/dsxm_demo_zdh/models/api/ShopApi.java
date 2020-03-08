@@ -1,5 +1,9 @@
 package com.example.dsxm_demo_zdh.models.api;
 
+import com.example.dsxm_demo_zdh.models.api.bean.CartBean;
+import com.example.dsxm_demo_zdh.models.api.bean.CartGoodsCheckBean;
+import com.example.dsxm_demo_zdh.models.api.bean.CartGoodsDeleteBean;
+import com.example.dsxm_demo_zdh.models.api.bean.CartGoodsUpdateBean;
 import com.example.dsxm_demo_zdh.models.api.bean.CatalogListBean;
 import com.example.dsxm_demo_zdh.models.api.bean.CatalogTabBean;
 import com.example.dsxm_demo_zdh.models.api.bean.DetilListBean;
@@ -50,4 +54,25 @@ public interface ShopApi {
     @FormUrlEncoded
     Flowable<UserBean> login(@Field("nickname") String nickname, @Field("password") String password);
 
+    //获取购物车的数据
+    @GET("cart/index")
+    Flowable<CartBean> getCartIndex();
+
+    //购物车商品数据的选中或取消
+    @POST("cart/checked")
+    @FormUrlEncoded
+    Flowable<CartGoodsCheckBean> setCartGoodsCheck(@Field("productIds") String pids, @Field("isChecked") int isChecked);
+
+    //更新商品的数据
+    @POST("cart/update")
+    @FormUrlEncoded
+    Flowable<CartGoodsUpdateBean> updateCartGoods(@Field("productId") String pids, @Field("goodsId") String goodsId, @Field("number") int number, @Field("id") int id);
+
+
+    //删除商品
+    @POST("cart/delete")
+    @FormUrlEncoded
+    Flowable<CartGoodsDeleteBean> deleteCartGoods(@Field("productIds") String pids);
+
 }
+

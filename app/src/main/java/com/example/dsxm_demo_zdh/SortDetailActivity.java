@@ -11,15 +11,17 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.dsxm_demo_zdh.adapter.DetilAdapter;
 import com.example.dsxm_demo_zdh.base.BaseActivity;
+import com.example.dsxm_demo_zdh.base.BaseAdapter;
 import com.example.dsxm_demo_zdh.contract.SortDetilContract;
 import com.example.dsxm_demo_zdh.models.api.bean.DetilListBean;
 import com.example.dsxm_demo_zdh.models.api.bean.DetilTabBean;
+import com.example.dsxm_demo_zdh.persenter.DetilPresenter;
 import com.google.android.material.tabs.TabLayout;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class SortDetailActivity extends BaseActivity<SortDetilContract.View, SortDetilContract.Presenter> implements SortDetilContract.View ,TabLayout.BaseOnTabSelectedListener , BaseAdapter.OnClickItem {
+public class SortDetailActivity extends BaseActivity<SortDetilContract.Presenter> implements SortDetilContract.View ,TabLayout.BaseOnTabSelectedListener , BaseAdapter.ItemClickHandler {
 
     private ImageView mBackImg;
     private TabLayout mTabLayout;
@@ -35,13 +37,14 @@ public class SortDetailActivity extends BaseActivity<SortDetilContract.View, Sor
     protected void initData() {
         int id = getIntent().getIntExtra("id",0);
         //获取tab相关的数据
-        presenter.getDetilTab(id);
+        persenter.getDetilTab(id);
     }
 
     @Override
-    protected SortDetilContract.Presenter initPresenter() {
+    protected SortDetilContract.Presenter createPersenter() {
         return new DetilPresenter();
     }
+
 
     @Override
     protected void initView() {
@@ -68,9 +71,9 @@ public class SortDetailActivity extends BaseActivity<SortDetilContract.View, Sor
         };
         mRecyclerview.setLayoutManager(gridLayoutManager);
         listBeans = new ArrayList<>();
-        detilAdapter = new DetilAdapter(listBeans);
+        detilAdapter = new DetilAdapter(listBeans,this);
         mRecyclerview.setAdapter(detilAdapter);
-        detilAdapter.setOnItemClick(this);
+        detilAdapter.setItemClickHandler(this);
         mTabLayout.addOnTabSelectedListener(this);
     }
 
@@ -98,7 +101,7 @@ public class SortDetailActivity extends BaseActivity<SortDetilContract.View, Sor
         if(postion >= 0){
             mTabLayout.getTabAt(postion).select();
             //获取tab对应的列表数据
-            presenter.getDetilList(result.getData().getCurrentCategory().getId(),1,1000);
+            persenter.getDetilList(result.getData().getCurrentCategory().getId(),1,1000);
         }
     }
 
@@ -112,7 +115,7 @@ public class SortDetailActivity extends BaseActivity<SortDetilContract.View, Sor
     @Override
     public void onTabSelected(TabLayout.Tab tab) {
         int id = (int) tab.getTag();
-        presenter.getDetilList(id,1,1000);
+        persenter.getDetilList(id,1,1000);
     }
 
     @Override
@@ -125,9 +128,11 @@ public class SortDetailActivity extends BaseActivity<SortDetilContract.View, Sor
 
     }
 
+
+
     @Override
-    public void itenClick(View v, int pos) {
-        int id = listBeans.get(pos).getId();
+    public void itemClick(int position, BaseAdapter.BaseViewHolder holder) {
+        int id = listBeans.get(position).getId();
         Intent intent = new Intent(this, PurchaseActivity.class);
         intent.putExtra("id",id);
         startActivity(intent);
