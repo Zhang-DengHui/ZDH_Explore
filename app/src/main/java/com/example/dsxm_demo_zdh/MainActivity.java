@@ -48,15 +48,24 @@ public class MainActivity extends BaseActivity {
                 switch (menuItem.getItemId()){
                     case R.id.home:
                         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-                        fragmentTransaction.show(homeFragment).hide(zhuanTiFragment).hide(fenLeiFragment).commit();
+                        fragmentTransaction.show(homeFragment).hide(zhuanTiFragment).hide(fenLeiFragment).hide(ownFragment).commit();
                         break;
                     case R.id.zhuanti:
                         FragmentTransaction fragmentTransaction2 = fragmentManager.beginTransaction();
-                        fragmentTransaction2.show(zhuanTiFragment).hide(homeFragment).hide(fenLeiFragment).commit();
+                        fragmentTransaction2.show(zhuanTiFragment).hide(homeFragment).hide(fenLeiFragment).hide(shoppingFragment).hide(ownFragment).commit();
                         break;
                     case R.id.fenlei:
                         FragmentTransaction fragmentTransaction3 = fragmentManager.beginTransaction();
-                        fragmentTransaction3.show(fenLeiFragment).hide(homeFragment).hide(zhuanTiFragment).commit();
+                        fragmentTransaction3.show(fenLeiFragment).hide(homeFragment).hide(zhuanTiFragment).hide(shoppingFragment).hide(ownFragment).commit();
+                        break;
+                    case R.id.shopping:
+                        FragmentTransaction fragmentTransaction4 = fragmentManager.beginTransaction();
+                        fragmentTransaction4.show(shoppingFragment).hide(homeFragment).hide(fenLeiFragment).hide(zhuanTiFragment).hide(ownFragment).commit();
+                        break;
+                    case R.id.own:
+                        FragmentTransaction fragmentTransaction5 = fragmentManager.beginTransaction();
+                        fragmentTransaction5.show(ownFragment).hide(shoppingFragment).hide(homeFragment).hide(fenLeiFragment).hide(zhuanTiFragment).commit();
+
                 }
                 return false;
             }

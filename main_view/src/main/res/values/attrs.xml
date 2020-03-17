@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="mytitle">
+
+        <attr name="title_visible" format="boolean"></attr>
+        <attr name="title_return" format="string"></attr>
+        <attr name="titlr_finish" format="string"></attr>
+        <attr name="title" format="string"></attr>
+
+    </declare-styleable>
+
+</resources>

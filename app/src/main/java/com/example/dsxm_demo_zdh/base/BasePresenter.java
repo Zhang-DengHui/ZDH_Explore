@@ -30,9 +30,5 @@ public abstract class BasePresenter<V extends IBaseView>implements IBasePersente
             compositeDisposable.clear();
         }
     }
-    @Override
-    public void detachView(){
-        this.mView=null;
-        unSubscribe();
-    }
+
 }

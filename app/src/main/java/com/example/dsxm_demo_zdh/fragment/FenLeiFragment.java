@@ -5,12 +5,14 @@ import android.graphics.Color;
 import android.text.TextUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.example.dsxm_demo_zdh.R;
+import com.example.dsxm_demo_zdh.SortDetailActivity;
 import com.example.dsxm_demo_zdh.adapter.FenLeiAdapter;
 import com.example.dsxm_demo_zdh.base.BaseAdapter;
 import com.example.dsxm_demo_zdh.base.BaseFragment;
@@ -114,6 +116,7 @@ public class FenLeiFragment extends BaseFragment<FenLeiContract.View, FenLeiCont
     @Override
     public void getsortData(CatalogTabBean result) {
         categoryList = result.getData().getCategoryList();
+
         titles.clear();
         //筛选竖导航的标题数据
         for (CatalogTabBean.DataBean.CategoryListBean item : result.getData().getCategoryList()) {

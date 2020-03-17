@@ -1,6 +1,7 @@
 package com.example.dsxm_demo_zdh.fragment;
 
 import android.content.Context;
+import android.util.Log;
 import android.widget.ImageView;
 
 import androidx.recyclerview.widget.DividerItemDecoration;
@@ -159,6 +160,7 @@ public class HomeFragment extends BaseFragment<HomeContract.View,HomeContract.Pr
 
     @Override
     public void homeData(IndexBean bean) {
+        Log.d("IndexBean", "homeData: "+bean.toString());
         List<IndexBean.DataBean.BannerBean> bannerBeanList = bean.getData().getBanner();
         final List<String> list = new ArrayList<>();
         for (int i = 0; i < bannerBeanList.size(); i++) {
