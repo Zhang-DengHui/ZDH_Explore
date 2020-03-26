@@ -1,0 +1,106 @@
+##1	角色ID
+##2	角色名称
+##3	文件夹名称
+##4	性别
+##5	角色描述
+##6	最大等级
+##7	动画1
+##8	动画2
+##9	动画3
+##10	动画4
+##11	动画5
+##12	动画6
+##13	动画7
+##14	动画8
+##15	动画9
+##16	动画10
+##17	动画11
+##18	动画12
+##19	动画13
+##20	动画14
+##21	动画15
+##22	动画16
+##23	动画17
+##24	动画18
+##25	动画19
+##26	动画20
+##27	动画21
+##28	动画22
+##29	动画23
+##30	动画24
+##31	动画25
+##32	动画26
+##33	动画27
+##34	动画28
+##35	动画29
+#
+#角色ID：ID统一为8位，1xxxxxxx 为角色ID段；2xxxxxxx 为宠物ID段；3xxxxxxx 为物品ID段；4xxxxxxx 为欢乐豆ID段；5xxxxxxx 为技能ID段
+#角色名称：角色的名称文本
+#角色描述：角色的介绍说明文本
+#最大等级：最大可升至等级
+#
+#动画1：对应角色属性界面和角色升级界面触摸角色展示区域时机，
+#前4位1xxx对应角色ID的前4位，
+#5,6两位yy表示动作种类，
+#7,8两位zz表示播放方式，
+#播放方式枚举：
+#00 单次播放；
+#01 循环播放，
+#下同
+#
+#动画2：对应商城切换时机
+#动画3：对应背包中切换时机
+#动画4：对应商城展示时时机
+#动画5：对应玩家进场时时机
+#动画6：对应玩家离场时时机
+#动画7：对应对局过程中时机
+#动画8：对应叫地主时机
+#动画9：对应抢地主时机
+#动画10：对应加倍时机
+#动画11：对应明牌时机
+#动画12：对应选牌时机
+#动画13：对应出牌时机
+#动画14：对应有人打出炸弹，非同正营玩家时机
+#动画15：对应打出炸弹时机
+#动画16：对应打出飞机时机
+#动画17：对应打出连对时机
+#动画18：对应打出顺子时机
+#动画19：对应要不起牌时机
+#动画20：对应压死（刚好大过对手牌）时机
+#动画21：对应等待上家出牌，超过5秒后概率触发时机
+#动画22：对应报双玩家，以及同阵营玩家时机
+#动画23：对应报单玩家，以及同阵营玩家时机
+#动画24：对应非报双、不是同阵营的玩家时机
+#动画25：对应非报单、不是同阵营的玩家时机
+#动画26：对应托管状态时机
+#动画27：对应胜利时机
+#动画28：对应输牌时机
+#动画29：对应使用技能时机
+#动画30：游戏外avatar面向左侧界面 10000101 -> dazhaohu_01
+#动画31：游戏外avatar面向右侧界面 10000101 -> dazhaohu_01
+#动画32：游戏外排行榜界面   10000101 -> dazhaohu_01
+#动画33：游戏外商城界面     10000000 -> zhanshi_00
+#动画34：游戏外升级界面		10000101 -> dazhaohu_01
+#动画35：游戏外个人信息面板界面 10000101 ->dazhaohu_01
+#动画36：游戏外结算胜利界面 10001100 -> deiyi_00
+#动画37：游戏外结束失败界面 10000600 ->shibai_00
+#
+#1				2			3					4	5																																													6		7					8					9					10				11				12				13				14				15				16				17				18				19				20				21				22				23				24				25				26				27				28				29				30				31				32				33				34				35
+
+10000000	小志	putongnan	M	对斗地主有着异于常人的热情和实力，大众脸里深藏着的坚毅而肯定的眼神，只有了解的人才会懂！	40	dazhaohu_01	zhanshi_01	zhanshi_01	zhanshi_00	daiji_00	daiji_00	daiji_00	deyi_01	daiji_00	daiji_00	daiji_00	xuanpai_00	chupai_01	daiji_00	deyi_01	deyi_01	deyi_01	deyi_01	daiji_00	deyi_01	wuliao_00	deyi_01	deyi_01	daiji_00	daiji_00	wuliao_00	shengli_00	shibai_00	jineng_01	dazhaohu_01	zhanshi_00	dazhaohu_01	zhanshi_00	zhanshi_00	zhanshi_00	deyi_00	shibai_00
+10010000	小燕	putongnv	F	天生好运，却散发着满满的呆萌气！手拿双王四个二，表情依旧呆萌迷离，只能说天然呆往往比较幸运！	40	dazhaohu_01	zhanshi_01	zhanshi_01	zhanshi_00	daiji_00	daiji_00	daiji_00	deyi_01	daiji_00	daiji_00	daiji_00	xuanpai_00	chupai_01	daiji_00	deyi_01	deyi_01	deyi_01	deyi_01	daiji_00	deyi_01	wuliao_00	deyi_01	deyi_01	daiji_00	daiji_00	wuliao_00	shengli_00	shibai_00	jineng_01	dazhaohu_01	zhanshi_00	dazhaohu_01	zhanshi_00	zhanshi_00	zhanshi_00	shengli_00	shibai_00
+10020000	贝儿	mengbao	F	别看我萌萌哒，一直保持连胜的话，我可是会变出爱心的哟！唔，要吃糖吗？	60	dazhaohu_01	zhanshi_01	zhanshi_01	zhanshi_00	daiji_00	daiji_00	daiji_00	deyi_01	daiji_00	daiji_00	daiji_00	xuanpai_00	chupai_01	daiji_00	deyi_01	deyi_01	deyi_01	deyi_01	daiji_00	deyi_01	wuliao_00	deyi_01	deyi_01	daiji_00	daiji_00	wuliao_00	shengli_00	shibai_00	jineng_01	dazhaohu_01	zhanshi_00	dazhaohu_01	zhanshi_00	zhanshi_00	zhanshi_00	shengli_00	shibai_00
+10030000	卡神	ceo	M	财富对我而言，不过是数字而已，真正吸引我的，是明牌翻倍时把对手一盘倾囊的爽快！	60	dazhaohu_01	zhanshi_01	zhanshi_01	zhanshi_00	daiji_00	daiji_00	daiji_00	deyi_01	daiji_00	daiji_00	daiji_00	xuanpai_00	chupai_01	daiji_00	deyi_01	deyi_01	deyi_01	deyi_01	daiji_00	deyi_01	wuliao_00	deyi_01	deyi_01	daiji_00	daiji_00	wuliao_00	shengli_00	shibai_00	jineng_01	dazhaohu_01	zhanshi_00	dazhaohu_01	zhanshi_00	zhanshi_00	zhanshi_00	shengli_00	shibai_00
+10040000	艾琳娜	qianjinnv	F	别以为千金小姐只会花钱，抓准时机加大回报才是我最擅长的，包括分数！	80	dazhaohu_01	zhanshi_01	zhanshi_01	zhanshi_00	daiji_00	daiji_00	daiji_00	deyi_01	daiji_00	daiji_00	daiji_00	xuanpai_00	chupai_01	daiji_00	deyi_01	deyi_01	deyi_01	deyi_01	daiji_00	deyi_01	wuliao_00	deyi_01	deyi_01	daiji_00	daiji_00	wuliao_00	shengli_00	shibai_00	jineng_01	dazhaohu_01	zhanshi_00	dazhaohu_01	zhanshi_00	zhanshi_00	zhanshi_00	shengli_00	shibai_00
+10050000	直树	lengjunnan	M	冷静外表掩盖着我执着的心，上天赋予我优先叫地主的能力，助我无往不利！	80	dazhaohu_01	zhanshi_01	zhanshi_01	zhanshi_00	daiji_00	daiji_00	daiji_00	deyi_01	daiji_00	daiji_00	daiji_00	xuanpai_00	chupai_01	daiji_00	deyi_01	deyi_01	deyi_01	deyi_01	daiji_00	deyi_01	wuliao_00	deyi_01	deyi_01	daiji_00	daiji_00	wuliao_00	shengli_00	shibai_00	jineng_01	dazhaohu_01	zhanshi_00	dazhaohu_01	zhanshi_00	zhanshi_00	zhanshi_00	shengli_00	shibai_00
+10060000	运动男	putongnan	M	我爱打网球呀打网球	10	dazhaohu_01	zhanshi_01	zhanshi_01	zhanshi_00	daiji_00	daiji_00	daiji_00	deyi_01	daiji_00	daiji_00	daiji_00	xuanpai_00	chupai_01	daiji_00	deyi_01	deyi_01	deyi_01	deyi_01	daiji_00	deyi_01	wuliao_00	deyi_01	deyi_01	daiji_00	daiji_00	wuliao_00	shengli_00	shibai_00	jineng_01	dazhaohu_01	zhanshi_00	dazhaohu_01	zhanshi_00	zhanshi_00	zhanshi_00	shengli_00	shibai_00
+10070000	叛逆女	panninv	F	我就喜欢跟你对着干怎么着	80	dazhaohu_01	zhanshi_01	zhanshi_01	zhanshi_00	daiji_00	daiji_00	daiji_00	deyi_01	daiji_00	daiji_00	daiji_00	xuanpai_00	chupai_01	daiji_00	deyi_01	deyi_01	deyi_01	deyi_01	daiji_00	deyi_01	wuliao_00	deyi_01	deyi_01	daiji_00	daiji_00	wuliao_00	shengli_00	shibai_00	jineng_01	dazhaohu_01	zhanshi_00	dazhaohu_01	zhanshi_00	zhanshi_00	zhanshi_00	shengli_00	shibai_00
+12000000	牛小妞	douniunv	F	明明靠脸就行，她还拥有惊人的算牌能力！在斗牛的世界里，技艺无人能敌！	60	dazhaohu_01	zhanshi_01	zhanshi_01	zhanshi_00	daiji_00	daiji_00	daiji_00	deyi_01	daiji_00	daiji_00	daiji_00	xuanpai_00	chupai_01	daiji_00	deyi_01	deyi_01	deyi_01	deyi_01	daiji_00	deyi_01	wuliao_00	deyi_01	deyi_01	daiji_00	daiji_00	wuliao_00	shengli_00	shibai_00	jineng_01	dazhaohu_01	zhanshi_00	dazhaohu_01	zhanshi_00	zhanshi_00	zhanshi_00	shengli_00	shibai_00
+12010000	铃兰	majiangnv	F	乐观积极，莞尔一笑迷倒万千对手，打牌手风极顺，造就好心情+好牌的完美角色	60	dazhaohu_01	zhanshi_01	zhanshi_01	zhanshi_00	daiji_00	daiji_00	daiji_00	deyi_01	daiji_00	daiji_00	daiji_00	xuanpai_00	chupai_01	daiji_00	deyi_01	deyi_01	deyi_01	deyi_01	daiji_00	deyi_01	wuliao_00	deyi_01	deyi_01	daiji_00	daiji_00	wuliao_00	shengli_00	shibai_00	jineng_01	dazhaohu_01	zhanshi_00	dazhaohu_01	zhanshi_00	zhanshi_00	zhanshi_00	shengli_00	shibai_00
+12020000	乔叔	chengshunan	M	大叔气质，机智爽朗。名副其实的算牌高手，有着过目不忘的本领	40	dazhaohu_01	zhanshi_01	zhanshi_01	zhanshi_00	daiji_00	daiji_00	daiji_00	deyi_01	daiji_00	daiji_00	daiji_00	xuanpai_00	chupai_01	daiji_00	deyi_01	deyi_01	deyi_01	deyi_01	daiji_00	deyi_01	wuliao_00	deyi_01	deyi_01	daiji_00	daiji_00	wuliao_00	shengli_00	shibai_00	jineng_01	dazhaohu_01	zhanshi_00	dazhaohu_01	zhanshi_00	zhanshi_00	zhanshi_00	shengli_00	shibai_00
+12030000	凯蒂	chengshunv	F	有内涵，有故事的女人，温柔体贴，蕙质兰心。打牌不靠牌运只看气质	40	dazhaohu_01	zhanshi_01	zhanshi_01	zhanshi_00	daiji_00	daiji_00	daiji_00	deyi_01	daiji_00	daiji_00	daiji_00	xuanpai_00	chupai_01	daiji_00	deyi_01	deyi_01	deyi_01	deyi_01	daiji_00	deyi_01	wuliao_00	deyi_01	deyi_01	daiji_00	daiji_00	wuliao_00	shengli_00	shibai_00	jineng_01	dazhaohu_01	zhanshi_00	dazhaohu_01	zhanshi_00	zhanshi_00	zhanshi_00	shengli_00	shibai_00
+10140000	晓谦	mofashi	M	现在，就是见证奇迹的时刻！	80	dazhaohu_01	zhanshi_01	zhanshi_01	zhanshi_00	daiji_00	daiji_00	daiji_00	deyi_01	daiji_00	daiji_00	daiji_00	xuanpai_00	chupai_01	daiji_00	deyi_01	deyi_01	deyi_01	deyi_01	daiji_00	deyi_01	wuliao_00	deyi_01	deyi_01	daiji_00	daiji_00	wuliao_00	shengli_00	shibai_00	jineng_01	dazhaohu_01	zhanshi_00	dazhaohu_01	zhanshi_00	zhanshi_00	zhanshi_00	shengli_00	shibai_00
+10160000	赛罗	cluo		M	打牌，最重要的就是全神贯注！	60	dazhaohu_01	zhanshi_01	zhanshi_01	zhanshi_00	daiji_00	daiji_00	daiji_00	deyi_01	daiji_00	daiji_00	daiji_00	xuanpai_00	chupai_01	daiji_00	deyi_01	deyi_01	deyi_01	deyi_01	daiji_00	deyi_01	wuliao_00	deyi_01	deyi_01	daiji_00	daiji_00	wuliao_00	shengli_00	shibai_00	jineng_01	dazhaohu_01	zhanshi_00	dazhaohu_01	zhanshi_00	zhanshi_00	zhanshi_00	shengli_00	shibai_00
+10150000	发哥	fage		M	这个世界上，正常人不可能赢得了我！		80	dazhaohu_01	zhanshi_01	zhanshi_01	zhanshi_00	daiji_00	daiji_00	daiji_00	deyi_01	daiji_00	daiji_00	daiji_00	xuanpai_00	chupai_01	daiji_00	deyi_01	deyi_01	deyi_01	deyi_01	daiji_00	deyi_01	wuliao_00	deyi_01	deyi_01	daiji_00	daiji_00	wuliao_00	shengli_00	shibai_00	jineng_01	dazhaohu_01	zhanshi_00	dazhaohu_01	zhanshi_00	zhanshi_00	zhanshi_00	shengli_00	shibai_00
+10170000	涛涛	youyongjianjiang	M	争分夺秒，勇往直前！		60	dazhaohu_01	zhanshi_01	zhanshi_01	zhanshi_00	daiji_00	daiji_00	daiji_00	deyi_01	daiji_00	daiji_00	daiji_00	xuanpai_00	chupai_01	daiji_00	deyi_01	deyi_01	deyi_01	deyi_01	daiji_00	deyi_01	wuliao_00	deyi_01	deyi_01	daiji_00	daiji_00	wuliao_00	shengli_00	shibai_00	jineng_01	dazhaohu_01	zhanshi_00	dazhaohu_01	zhanshi_00	zhanshi_00	zhanshi_00	shengli_00	shibai_00
+10180000	财神	caishen		M	财神爷爷不姓财，装满豆子等你来，炸弹一出财运到，新年豆子赢开怀！	80	dazhaohu_01	zhanshi_01	zhanshi_01	zhanshi_00	daiji_00	daiji_00	daiji_00	deyi_01	daiji_00	daiji_00	daiji_00	xuanpai_00	chupai_01	daiji_00	deyi_01	deyi_01	deyi_01	deyi_01	daiji_00	deyi_01	wuliao_00	deyi_01	deyi_01	daiji_00	daiji_00	wuliao_00	shengli_00	shibai_00	shengli_00	dazhaohu_01	zhanshi_00	dazhaohu_01	zhanshi_00	zhanshi_00	zhanshi_00	shengli_00	shibai_00

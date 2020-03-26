@@ -1,0 +1,8 @@
+﻿#兑换线ID	兑换类型	源数量	物品ID	物品名称	目标数量	目前物品ID	目标物品名称	目标物品图标名称
+11	1	10	30040039	话费领奖卡	1	70010018	10元话费	image/Icon/ItemExchange/70010000.png
+12	1	20	30040039	话费领奖卡	1	70010000	20元话费	image/Icon/ItemExchange/70010018.png
+13	1	30	30040039	话费领奖卡	1	70010001	30元话费	image/Icon/ItemExchange/70010001.png
+14	1	50	30040039	话费领奖卡	1	70010002	50元话费	image/Icon/ItemExchange/70010002.png
+25	3	1	30040030	iPhone7领奖卡	1	70010025	iPhone7	image/Icon/ItemExchange/70010025.png
+26	3	1	30040040	100元购物卡领奖卡	1	70010027	100元购物卡	image/Icon/ItemExchange/70010027.png
+27	3	1	30040041	宝骏310汽车券	1	70010036	宝骏310汽车	image/Icon/ItemExchange/70010036.png

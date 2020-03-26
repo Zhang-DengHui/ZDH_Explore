@@ -1,0 +1,30 @@
+{
+   "body" : {
+      "err_msg" : "没有活动可以参加哦",
+      "ret" : "13"
+   },
+   "head" : {
+      "acc_type" : "wx",
+      "access_token" : "6_H5ekLvJHSL5S9Xiw-v_4dLiTaPPU8Q5aDlmFydbGASbzsThhylzMRYNPCq5s2k_g-NK32LRdauQmotovJCQFbM-vD8_HpslfJ0KwsiZgRcg",
+      "act_style" : "8",
+      "area_id" : "1",
+      "channel_id" : "23352",
+      "cmd_id" : "10000",
+      "game_app_id" : "wx76fc280041c16519",
+      "game_env" : "1",
+      "info_id" : null,
+      "is_infoidlist" : null,
+      "msg_type" : 2,
+      "open_id" : "oGPTKjhEyajEfa6MCYnOwWMk4QEo",
+      "pandora_seq" : "AMS-hlddz-0208051119-97w1s0-2420-168668",
+      "patition_id" : "1",
+      "pf" : null,
+      "plat_id" : "0",
+      "role_id" : "",
+      "sdk_version" : "HLDDZ-IOS-V0.3",
+      "seq_id" : "699453",
+      "timestamp" : "1518037879"
+   },
+   "iPdrLibMsg" : "OK",
+   "iPdrLibRet" : "0"
+}

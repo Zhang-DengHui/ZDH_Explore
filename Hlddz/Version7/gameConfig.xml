@@ -1,0 +1,18 @@
+﻿﻿<main>
+	<IsUseDynamicResource>1</IsUseDynamicResource>
+	<rendom>
+		<createlink percentmax="0.51" percentmin="0.5"/>
+		<version name="fileList" percent="1"/>
+	</rendom>
+	<fileList savedir=".\hlddzSDK\" srvdir="http://dldir3.qq.com/minigamefile/NewHlddz/" version="7">
+		<file ShowVersion="2.17.2.15" fullpkg="1" singleclient="hlddz.exe" url="hlddz_0217020015.7z" version="7"/>
+		<file ShowVersion="2.17.2.15" incredown="1" pkgname="hlddz_0217020015" redo="1" singleclient="hlddz.exe" version="7"/>
+		<file des="patch package" group="1" name="Patch" url="Patch_0215010021_0217020015.7z" version="0215010021"/>
+		<file des="patch package" group="1" name="Patch" url="Patch_0216000003_0217020015.7z" version="0216000003"/>
+		<file des="patch package" group="1" name="Patch" url="Patch_0216010002_0217020015.7z" version="0216010002"/>
+		<file des="patch package" group="1" name="Patch" url="Patch_0216020002_0217020015.7z" version="0216020002"/>
+		<file des="patch package" group="1" name="Patch" url="Patch_0217000017_0217020015.7z" version="0217000017"/>
+		<file des="patch package" group="1" name="Patch" url="Patch_0217010002_0217020015.7z" version="0217010002"/>
+		<file des="patch package" group="1" name="Patch" url="Patch_0217020013_0217020015.7z" version="0217020013"/>
+	</fileList>
+</main>

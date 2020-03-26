@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rule>
+	<new>
+		<news>			
+			<content><![CDATA[[公告]排位来袭，是时候展现真正的技术了！]]></content>
+			<date><![CDATA[[04/02]]]></date>
+			<href><![CDATA[http://hlddz.qq.com/webplat/info/news_version3/11981/32807/32808/32809/m19167/201804/706296.shtml]]></href>
+		</news>
+		<news>			
+			<content><![CDATA[[公告]首个拥有特殊语音的角色，福尔摩汪来啦！]]></content>
+			<date><![CDATA[[04/02]]]></date>
+			<href><![CDATA[http://hlddz.qq.com/webplat/info/news_version3/11981/32807/32808/32809/m19167/201804/706300.shtml]]></href>
+		</news>
+	</new>
+	<launchCfg minmen="500" cpucorenum="2" cpuclockspeed="1200" videomem="64"/>
+  <banner>
+    <item index = 0>
+      <srvurl>http://dldir3.qq.com/minigamefile/NewHlddz/Launch/Image/launchgongce5.png</srvurl>
+      <localurl>/Image/launchgongce5.png</localurl>
+      <href>http://hlddz.qq.com/webplat/info/news_version3/11981/32807/32808/32809/m19167/201804/706296.shtml</href>
+    </item>
+  </banner>
+  <bonus srvurl="http://dldir3.qq.com/minigamefile/NewHlddz/Launch/Image/" logo="Image/Launch_Icon/item_logo.png" normalbg="Image/Launch_Icon/item_bg.png" disablebg="Image/Launch_Icon/item_bg_disable.png" respkg="bonus2.7z">
+	<item index=0 normal="Image/item_01.png" disable="Image/item_01_disable.png">
+		<tips><![CDATA[[10/20]]]></tips>
+	</item>
+	<item index=1 normal="Image/item_02.png" disable="Image/item_02_disable.png">
+		<tips><![CDATA[[10/20]]]></tips>
+	</item>
+	<item index=2 normal="Image/item_03.png" disable="Image/item_03_disable.png">
+		<tips><![CDATA[[10/20]]]></tips>
+	</item>
+	<item index=3 normal="Image/item_04.png" disable="Image/item_04_disable.png">
+		<tips><![CDATA[[10/20]]]></tips>
+	</item>
+  </bonus>
+</rule>

@@ -1,0 +1,225 @@
+ {
+ "body" : {
+      "err_msg" : "OK",
+      "md5_val" : "d485f77fd78dfdb1",
+      "online_msg_info" : {
+         "act_list" : [
+            {
+               "act_beg_time" : "1518037200",
+               "act_end_time" : "1518055200",
+               "act_info" : {
+                  "goods_info" : [
+                     {
+                        "currency_type" : "1",
+                        "dt_begin_time" : "1517068800",
+                        "dt_end_time" : "1524931199",
+                        "gpm_goods_detail" : [
+                           {
+                              "ipacket_num" : "1",
+                              "pic_md5val" : "8f00b204e9800998",
+                              "sgoods_name" : "hlddz角色团购购买成功积分",
+                              "sitem_id" : "JF-40-1-6",
+                              "sitem_price" : "0"
+                           },
+                           {
+                              "ipacket_num" : "1",
+                              "pic_md5val" : "7e88c21c68cb9aaa",
+                              "sgoods_name" : "福尔摩汪",
+                              "sgoods_pic" : "http://ossweb-img.qq.com/images/gameshop/hlddz/images/thumb_sGoodsPic7401/icon_dog_store.png",
+                              "sitem_id" : "10190000",
+                              "sitem_price" : "168600"
+                           }
+                        ],
+                        "iaction_id" : "7401",
+                        "igoods_id" : "70789",
+                        "limit_type" : "0",
+                        "max_buy_num" : "1",
+                        "sgoods_desc" : "",
+                        "sgoods_name" : "福尔摩汪",
+                        "sgoods_pic" : "",
+                        "sprice" : "16860",
+                        "sreal_price" : "8430"
+                     },
+                     {
+                        "currency_type" : "1",
+                        "dt_begin_time" : "1517068800",
+                        "dt_end_time" : "1524931199",
+                        "gpm_goods_detail" : [
+                           {
+                              "ipacket_num" : "1",
+                              "pic_md5val" : "8f00b204e9800998",
+                              "sgoods_name" : "hlddz角色团购购买成功积分",
+                              "sitem_id" : "JF-40-1-6",
+                              "sitem_price" : "0"
+                           },
+                           {
+                              "ipacket_num" : "1",
+                              "pic_md5val" : "7e88c21c68cb9aaa",
+                              "sgoods_name" : "福尔摩汪",
+                              "sgoods_pic" : "http://ossweb-img.qq.com/images/gameshop/hlddz/images/thumb_sGoodsPic7401/icon_dog_store.png",
+                              "sitem_id" : "10190000",
+                              "sitem_price" : "168600"
+                           }
+                        ],
+                        "iaction_id" : "7401",
+                        "igoods_id" : "70790",
+                        "limit_type" : "0",
+                        "max_buy_num" : "1",
+                        "sgoods_desc" : "",
+                        "sgoods_name" : "福尔摩汪",
+                        "sgoods_pic" : "",
+                        "sprice" : "16860",
+                        "sreal_price" : "6750"
+                     }
+                  ]
+               },
+               "act_priority" : "0",
+               "act_style" : "10197",
+               "act_title" : "欢乐斗地主角色团购（购买）",
+               "ams_resp" : {
+                  "allFriendsInfo" : [
+                     {
+                        "dtOptTime" : "2018-02-08 03:28:36",
+                        "iInviteType" : "0",
+                        "sFriendAreaId" : "2",
+                        "sFriendMsgId" : "19",
+                        "sFriendOpenId" : "oGPTKjpMT0M7ql4vf22-XXe2C-N8",
+                        "sFriendUin" : "659644298"
+                     },
+                     {
+                        "dtOptTime" : "2018-02-08 03:28:36",
+                        "iInviteType" : "0",
+                        "sFriendAreaId" : "3",
+                        "sFriendMsgId" : "19",
+                        "sFriendOpenId" : "oGPTKjo-KKnWa_QbXy4ZVmvaLWN4",
+                        "sFriendUin" : "865858837"
+                     },
+                     {
+                        "dtOptTime" : "2018-02-08 03:36:47",
+                        "iInviteType" : "1",
+                        "sFriendAreaId" : "2",
+                        "sFriendMsgId" : "19",
+                        "sFriendOpenId" : "oGPTKjnGPSgzaTqSbEQytq-HMLUI",
+                        "sFriendUin" : "866433501"
+                     },
+                     {
+                        "dtOptTime" : "2018-02-08 03:28:36",
+                        "iInviteType" : "0",
+                        "sFriendAreaId" : "2",
+                        "sFriendMsgId" : "19",
+                        "sFriendOpenId" : "oGPTKjhiS-kgZMgY8qpPERRX30M8",
+                        "sFriendUin" : "877421049"
+                     },
+                     {
+                        "dtOptTime" : "2018-02-08 03:28:36",
+                        "iInviteType" : "0",
+                        "sFriendAreaId" : "2",
+                        "sFriendMsgId" : "19",
+                        "sFriendOpenId" : "oGPTKjsDQ-1-K4WEEVkWMEdr3ZE8",
+                        "sFriendUin" : "882532374"
+                     },
+                     {
+                        "dtOptTime" : "2018-02-08 03:28:36",
+                        "iInviteType" : "0",
+                        "sFriendAreaId" : "2",
+                        "sFriendMsgId" : "19",
+                        "sFriendOpenId" : "oGPTKjuT1gwJBvYZjTb8Iyhk1CDQ",
+                        "sFriendUin" : "981889737"
+                     },
+                     {
+                        "dtOptTime" : "2018-02-08 03:28:36",
+                        "iInviteType" : "0",
+                        "sFriendAreaId" : "2",
+                        "sFriendMsgId" : "19",
+                        "sFriendOpenId" : "oGPTKjqF-4MGcqSXhHhTCQfIDjH0",
+                        "sFriendUin" : "1083210769"
+                     }
+                  ],
+                  "iActType" : 2,
+                  "iAllNum" : 7,
+                  "iBuyFinish" : 0,
+                  "iMyVip" : "5",
+                  "iPailian" : 0,
+                  "iPreFinish" : "1",
+                  "iRet" : 0,
+                  "iTotalInvite" : 1,
+                  "iTotalSucc" : 0,
+                  "iUid" : "661593608",
+                  "iWangWang" : "1000000",
+                  "iWangWangBar" : "5",
+                  "iWangWangVip" : "5",
+                  "instanceid" : 136472,
+                  "md5" : "4df89a310830650f93770cdfbb9e7eb2",
+                  "msg" : "ok",
+                  "ret" : 0,
+                  "sAmsSerial" : "AMS-hlddz-0208052848-nBJKU0-2420-168668",
+                  "sMsg" : "ok",
+                  "timeBuyBegin" : 1518037200,
+                  "timeBuyEnd" : 1518055200,
+                  "timeCur" : 1518038928,
+                  "timePreBegin" : 1517860800,
+                  "timePreEnd" : 1518019199
+               },
+               "daojucheng_id" : "7401",
+               "djc_resp" : {
+                  "list" : [
+                     {
+                        "act_id" : 7401,
+                        "freeze" : 0,
+                        "goods_id" : 70790,
+                        "left" : 1,
+                        "limittype" : "action_user_zone_plat",
+                        "total" : 1,
+                        "type" : 0,
+                        "used" : 0
+                     },
+                     {
+                        "act_id" : 7401,
+                        "freeze" : 0,
+                        "goods_id" : 70790,
+                        "left" : 1,
+                        "limittype" : "action_user_zone_plat",
+                        "total" : 1,
+                        "type" : 0,
+                        "used" : 0
+                     }
+                  ],
+                  "msg" : "OK",
+                  "ret" : 0
+               },
+               "game_vers" : [],
+               "info_id" : "1002335",
+               "paas_id" : "136472",
+               "tag" : "0"
+            }
+         ],
+         "act_num" : "1"
+      },
+      "ret" : "0",
+      "tip_msg" : "1002335:非公有白名单用户 私有白名单用户 已发布到该游戏版本"
+   },
+   "head" : {
+      "acc_type" : "wx",
+      "access_token" : "6_H5ekLvJHSL5S9Xiw-v_4dLiTaPPU8Q5aDlmFydbGASbzsThhylzMRYNPCq5s2k_g-NK32LRdauQmotovJCQFbM-vD8_HpslfJ0KwsiZgRcg",
+      "act_style" : "10197",
+      "area_id" : "1",
+      "channel_id" : "10150",
+      "cmd_id" : "10000",
+      "game_app_id" : "wx76fc280041c16519",
+      "game_env" : "1",
+      "info_id" : null,
+      "is_infoidlist" : null,
+      "msg_type" : 2,
+      "open_id" : "oGPTKjhEyajEfa6MCYnOwWMk4QEo",
+      "pandora_seq" : "AMS-hlddz-0208052848-nBJKU0-2420-168668",
+      "patition_id" : "1",
+      "pf" : null,
+      "plat_id" : "0",
+      "role_id" : "",
+      "sdk_version" : "HLDDZ-IOS-V0.3",
+      "seq_id" : "327882",
+      "timestamp" : "1518038928"
+   },
+   "iPdrLibMsg" : "OK",
+   "iPdrLibRet" : "0"
+}

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rule>
+	<new>
+		<news>			
+			<content><![CDATA[[公告]欢乐斗地主全新公测，参与意见反馈领大奖]]></content>
+			<date><![CDATA[[11/26]]]></date>
+			<href><![CDATA[http://qqgame.gamebbs.qq.com/forum.php?mod=viewthread&tid=12478989]]></href>
+		</news>
+		
+	</new>
+	<launchCfg minmen="500" cpucorenum="2" cpuclockspeed="1200" videomem="64"/>
+  <banner>
+    <item index = 0>
+      <srvurl>http://dldir3.qq.com/minigamefile/NewHlddz/Launch/Image/launchgongce.png</srvurl>
+      <localurl>/Image/launchgongce.png</localurl>
+      <href>http://qqgame.gamebbs.qq.com/forum.php?mod=viewthread&amp;tid=29126423</href>
+    </item>
+  </banner>
+  <bonus srvurl="http://14.17.37.17/download/" logo="Image/item_logo.png" normalbg="Image/item_bg.png" disablebg="Image/item_bg_disable.png" respkg="Image/bonus.7z">
+	<item index=0 normal="Image/item_01.png" disable="Image/item_01_disable.png">
+		<tips><![CDATA[[10/20]]]></tips>
+	</item>
+	<item index=1 normal="Image/item_02.png" disable="Image/item_02_disable.png">
+		<tips><![CDATA[[10/20]]]></tips>
+	</item>
+	<item index=2 normal="Image/item_03.png" disable="Image/item_03_disable.png">
+		<tips><![CDATA[[10/20]]]></tips>
+	</item>
+	<item index=3 normal="Image/item_04.png" disable="Image/item_04_disable.png">
+		<tips><![CDATA[[10/20]]]></tips>
+	</item>
+  </bonus>
+</rule>

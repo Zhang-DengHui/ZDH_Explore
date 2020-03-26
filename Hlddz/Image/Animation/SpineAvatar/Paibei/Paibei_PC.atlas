@@ -1,0 +1,293 @@
+
+Paibei_PC.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+DP_left_1
+  rotate: false
+  xy: 118, 53
+  size: 20, 18
+  orig: 35, 23
+  offset: 8, 2
+  index: -1
+DP_left_10
+  rotate: false
+  xy: 32, 22
+  size: 27, 18
+  orig: 35, 23
+  offset: 5, 2
+  index: -1
+DP_left_11
+  rotate: false
+  xy: 186, 73
+  size: 25, 18
+  orig: 35, 23
+  offset: 5, 2
+  index: -1
+DP_left_12
+  rotate: false
+  xy: 161, 93
+  size: 27, 18
+  orig: 35, 23
+  offset: 5, 2
+  index: -1
+DP_left_13
+  rotate: false
+  xy: 32, 2
+  size: 27, 18
+  orig: 35, 23
+  offset: 5, 2
+  index: -1
+DP_left_14
+  rotate: false
+  xy: 101, 93
+  size: 28, 18
+  orig: 35, 23
+  offset: 4, 2
+  index: -1
+DP_left_15
+  rotate: false
+  xy: 70, 93
+  size: 29, 18
+  orig: 35, 23
+  offset: 4, 2
+  index: -1
+DP_left_16
+  rotate: false
+  xy: 2, 22
+  size: 28, 18
+  orig: 35, 23
+  offset: 4, 2
+  index: -1
+DP_left_17
+  rotate: false
+  xy: 2, 42
+  size: 29, 18
+  orig: 35, 23
+  offset: 5, 2
+  index: -1
+DP_left_18
+  rotate: false
+  xy: 33, 42
+  size: 28, 18
+  orig: 35, 23
+  offset: 4, 2
+  index: -1
+DP_left_19
+  rotate: false
+  xy: 131, 93
+  size: 28, 18
+  orig: 35, 23
+  offset: 4, 2
+  index: -1
+DP_left_2
+  rotate: false
+  xy: 228, 53
+  size: 19, 18
+  orig: 35, 23
+  offset: 7, 2
+  index: -1
+DP_left_20
+  rotate: false
+  xy: 2, 62
+  size: 32, 18
+  orig: 35, 23
+  offset: 1, 2
+  index: -1
+DP_left_3
+  rotate: false
+  xy: 149, 33
+  size: 18, 18
+  orig: 35, 23
+  offset: 8, 2
+  index: -1
+DP_left_4
+  rotate: false
+  xy: 140, 53
+  size: 20, 18
+  orig: 35, 23
+  offset: 7, 2
+  index: -1
+DP_left_5
+  rotate: false
+  xy: 162, 53
+  size: 20, 18
+  orig: 35, 23
+  offset: 7, 2
+  index: -1
+DP_left_6
+  rotate: false
+  xy: 169, 33
+  size: 18, 18
+  orig: 35, 23
+  offset: 8, 2
+  index: -1
+DP_left_7
+  rotate: false
+  xy: 184, 53
+  size: 20, 18
+  orig: 35, 23
+  offset: 8, 2
+  index: -1
+DP_left_8
+  rotate: false
+  xy: 107, 33
+  size: 19, 18
+  orig: 35, 23
+  offset: 8, 2
+  index: -1
+DP_left_9
+  rotate: false
+  xy: 206, 53
+  size: 20, 18
+  orig: 35, 23
+  offset: 9, 2
+  index: -1
+DP_right_1
+  rotate: false
+  xy: 80, 13
+  size: 16, 18
+  orig: 35, 23
+  offset: 9, 3
+  index: -1
+DP_right_10
+  rotate: false
+  xy: 190, 93
+  size: 27, 18
+  orig: 35, 23
+  offset: 4, 3
+  index: -1
+DP_right_11
+  rotate: false
+  xy: 67, 53
+  size: 24, 18
+  orig: 35, 23
+  offset: 5, 3
+  index: -1
+DP_right_12
+  rotate: false
+  xy: 2, 2
+  size: 28, 18
+  orig: 35, 23
+  offset: 3, 3
+  index: -1
+DP_right_13
+  rotate: false
+  xy: 219, 93
+  size: 27, 18
+  orig: 35, 23
+  offset: 4, 3
+  index: -1
+DP_right_14
+  rotate: false
+  xy: 70, 73
+  size: 27, 18
+  orig: 35, 23
+  offset: 4, 3
+  index: -1
+DP_right_15
+  rotate: false
+  xy: 99, 73
+  size: 27, 18
+  orig: 35, 23
+  offset: 4, 3
+  index: -1
+DP_right_16
+  rotate: false
+  xy: 128, 73
+  size: 27, 18
+  orig: 35, 23
+  offset: 4, 3
+  index: -1
+DP_right_17
+  rotate: false
+  xy: 93, 53
+  size: 23, 18
+  orig: 35, 23
+  offset: 8, 3
+  index: -1
+DP_right_18
+  rotate: false
+  xy: 157, 73
+  size: 27, 18
+  orig: 35, 23
+  offset: 4, 3
+  index: -1
+DP_right_19
+  rotate: false
+  xy: 213, 73
+  size: 25, 18
+  orig: 35, 23
+  offset: 6, 3
+  index: -1
+DP_right_2
+  rotate: false
+  xy: 63, 33
+  size: 20, 18
+  orig: 35, 23
+  offset: 6, 3
+  index: -1
+DP_right_20
+  rotate: false
+  xy: 36, 62
+  size: 29, 18
+  orig: 35, 23
+  offset: 2, 3
+  index: -1
+DP_right_3
+  rotate: false
+  xy: 189, 33
+  size: 18, 18
+  orig: 35, 23
+  offset: 8, 3
+  index: -1
+DP_right_4
+  rotate: false
+  xy: 98, 13
+  size: 16, 18
+  orig: 35, 23
+  offset: 7, 3
+  index: -1
+DP_right_5
+  rotate: false
+  xy: 229, 33
+  size: 17, 18
+  orig: 35, 23
+  offset: 8, 3
+  index: -1
+DP_right_6
+  rotate: false
+  xy: 209, 33
+  size: 18, 18
+  orig: 35, 23
+  offset: 8, 3
+  index: -1
+DP_right_7
+  rotate: false
+  xy: 128, 33
+  size: 19, 18
+  orig: 35, 23
+  offset: 10, 3
+  index: -1
+DP_right_8
+  rotate: false
+  xy: 85, 33
+  size: 20, 18
+  orig: 35, 23
+  offset: 7, 3
+  index: -1
+DP_right_9
+  rotate: false
+  xy: 61, 13
+  size: 17, 18
+  orig: 35, 23
+  offset: 10, 3
+  index: -1
+paibei_PC
+  rotate: false
+  xy: 2, 82
+  size: 66, 29
+  orig: 72, 29
+  offset: 4, 0
+  index: -1
