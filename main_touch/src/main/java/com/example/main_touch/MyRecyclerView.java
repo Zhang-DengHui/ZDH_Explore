@@ -35,6 +35,7 @@ public class MyRecyclerView extends RecyclerView {
     public boolean dispatchTouchEvent(MotionEvent ev) {
         switch (ev.getAction()){
             case MotionEvent.ACTION_DOWN:
+                case MotionEvent.ACTION_UP:
                 getParent().requestDisallowInterceptTouchEvent(true);
                 break;
             case MotionEvent.ACTION_MOVE:
