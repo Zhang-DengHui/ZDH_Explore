@@ -1,1 +1,1 @@
-include ':app', ':apps', ':main_view', ':main_touch'
+include ':app', ':apps', ':main_view', ':main_touch', ':main_nvrs', ':main_slither', ':main_fragment', ':main_service', ':myservice', ':appppp'
