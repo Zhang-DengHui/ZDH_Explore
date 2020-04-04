@@ -1,1 +1,1 @@
-include ':app', ':apps', ':main_view', ':main_touch', ':main_nvrs', ':main_slither', ':main_fragment', ':main_service', ':myservice', ':appppp'
+include ':app', ':apps', ':main_view', ':main_touch', ':main_nvrs', ':main_slither', ':main_fragment', ':main_service', ':myservice', ':appppp', ':LoarBroadCastResiver', ':SecondBroadCastResiver', ':main_rxjava', ':my_rxjava'
